@@ -10,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/denwilliams/libcec-mqtt.git"
   },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/denwilliams/libcec-mqtt/issues"
   },
-  "homepage": "https://github.com/denwilliams/libcec-mqtt#readme"
+  "homepage": "https://github.com/denwilliams/libcec-mqtt#readme",
+  "dependencies": {
+    "node-cec": "^0.1.2"
+  }
 }
