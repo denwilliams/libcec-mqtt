@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "libcec-mqtt": "./bin/libcec-mqtt"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/denwilliams/libcec-mqtt.git"
@@ -20,6 +23,8 @@
   },
   "homepage": "https://github.com/denwilliams/libcec-mqtt#readme",
   "dependencies": {
+    "loke-config": "^2.0.1",
+    "mqtt": "^2.9.1",
     "node-cec": "^0.1.2"
   }
 }

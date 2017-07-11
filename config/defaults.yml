@@ -1,0 +1,5 @@
+---
+
+mqtt:
+  host: localhost
+  topic_prefix: cec/
