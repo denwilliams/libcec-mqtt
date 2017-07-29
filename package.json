@@ -1,7 +1,7 @@
 {
   "name": "libcec-mqtt",
   "version": "1.0.0",
-  "description": "Node.js MQTT bridge for Raspberry Pi",
+  "description": "Control CEC devices using Raspberry Pi over MQTT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
